@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socialbook-Demo by vishalmalage07</title>
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome icons stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <link rel="shortcut icon" type="image/icon" href="images/vish.png"/>
+  </head>
+  <body>
+    <!---------- Navigation bar ---------->
+    <nav>
+      <!-- Left section of navigation bar -->
+      <div class="nav-left">
+        <!-- Logo and icons -->
+        <a href="index.html">
+          <!-- Socialbook logo -->
+          <img src="images/logo2.png" class="logo" />
+        </a>
+        <ul>
+          <!-- Notification icon -->
+          <li><a href="error/error.html"><img src="images/notification.png" /></a></li>
+          <!-- Inbox icon -->
+          <li><a href="https://mailto:vishalmalage07@gmail.com" ><img src="images/inbox.png" /></a></li>
+          <!-- Video icon -->
+          <li><a href="https://www.youtube.com/channel/UCObMBCToxiSDgB6CTxYV_dw"><img src="images/video.png" /></a></li>
+        </ul>
+      </div>
+      <!-- Right section of navigation bar -->
+      <div class="nav-right">
+        <!-- Search box -->
+        <div class="search-box">
+          <!-- Search icon -->
+          <img src="images/search.png" />
+          <!-- Search input -->
+          <input type="text" placeholder="Search" />
+        </div>
+        <!-- User profile icon -->
+        <div class="nav-user-icon online" onclick="settingsmenu()">
+          <!-- User profile image -->
+          <img src="images/vishal's img.jpg" alt="" />
+        </div>
+      </div>
+      <!------------ Settings menu ------------>
+      <div class="settings">
+        <!-- Dark mode toggle button -->
+        <div id="dark-button">
+          <span></span>
+        </div>
+        <!-- Inner menu content -->
+        <div class="inner-menu">
+          <!---------- User profile section ---------->
+          <div class="user-profile">
+            <!-- User profile image -->
+            <img src="images/vishal's img.jpg" />
+            <div class="">
+              <!-- User name -->
+              <p>Vishal Malage</p>
+              <!-- Link to user's profile -->
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <!-- Separator -->
+          <hr />
+          <!---------- Feedback section ---------->
+          <div class="user-profile">
+            <!-- Feedback icon -->
+            <img src="images/feedback.png" />
+            <div class="">
+              <!-- Feedback text -->
+              <p>Give Feedback</p>
+              <!-- Link to provide feedback -->
+              <a href="https://www.buymeacoffee.com/vishal_malage">Help us to improve</a>
+            </div>
+          </div>
+          <!-- Separator -->
+          <hr />
+          <!---------- Settings links ---------->
+          <div class="settings-links">
+            <!-- Settings icon -->
+            <img src="images/setting.png" class="settings-icon" />
+            <!-- Link to Settings & Privacy -->
+            <a href="#"
+              >Settings & Privacy <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <!-- Other settings links -->
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icon" />
+            <a href="https://www.buymeacoffee.com/vishal_malage"
+              >Help & Support <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibility <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <!-- Logout icon -->
+            <img src="images/logout.png" class="settings-icon" />
+            <!-- Link to log out -->
+            <a href="error 403/error403.html">Logout <img src="images/arrow.png" width="10px" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="profile">
+      <!-- Cover image -->
+      <img src="images/naruto.jpg" class="cover" />
+      <div class="profile-details">
+        <div class="profile-left">
+          <div class="pd-row">
+            <!-- User profile image -->
+            <img src="images/vishal's img.jpg" class="pd-image" />
+            <div>
+              <!-- User name and friend count -->
+              <h3>Vishal Malage</h3>
+              <p>377k friends</p>
+              <!-- User's mutual friends' images -->
+              <img src="images/member-6.png" />
+              <img src="images/member-7.png" />
+              <img src="images/member-8.png" />
+              <img src="images/member-4.png" />
+            </div>
+          </div>
+        </div>
+        <div class="profile-right">
+          <!-- Friend and Message buttons -->
+          <button type="button">
+            <!-- Add Friend icon -->
+            <img src="images/add-friends.png" />Friend
+          </button>
+          <button type="button">
+            <!-- Message icon -->
+            <img src="images/message.png"/>Message
+            </button>
+          <br />
+          <!-- More options link -->
+          <a href="#"><img src="images/more.png" /></a>
+        </div>
+      </div>
+      <!-- User profile information -->
+      <div class="profile-info">
+        <div class="info-col">
+          <!-- Introduction section -->
+          <div class="profile-intro">
+            <!-- Introduction title -->
+            <h3>Intro</h3>
+            <!-- Introductory text with feeling icon -->
+            <p class="intro-text">
+                Hi, I'm Vishal Malage, a full-stack developer fresher with a strong passion for web development.<br> I have a strong foundation in HTML, CSS, and JavaScript, and I'm proficient in using front-end frameworks such as React and Angular.<br> I'm also learning about back-end development and have a basic understanding of Node.js and Python.<br>
+
+                I'm eager to learn and grow, and I'm excited to contribute to a team where I can use my skills to build innovative and impactful web applications.
+              <img src="images/feeling.png" />
+            </p>
+            <hr />
+            <!-- List of user details -->
+            <ul>
+              <li><img src="images/profile-job.png" />Computer Science Engineer</li>
+              <li>
+                <img src="images/profile-study.png" />Studied at FTCOE, Sangola
+              </li>
+              <li>
+                <img src="images/profile-home.png" />Lives in Sangola , India
+              </li>
+              <li>
+                <img src="images/profile-location.png" />From Sangola, India
+              </li>
+            </ul>
+          </div>
+          <!-- Photos section -->
+          <div class="profile-intro">
+            <!-- Photos title with link -->
+            <div class="title-box">
+              <h3>Photos</h3>
+              <a href="#">All Photos</a>
+            </div>
+            <!-- Photo thumbnails -->
+            <div class="photo-box">
+              <div><img src="images/photo6.png" /></div>
+              <div><img src="images/photo2.png" /></div>
+              <div><img src="images/photo3.png" /></div>
+              <div><img src="images/photo5.png" /></div>
+              <div><img src="images/photo1.png" /></div>
+              <div><img src="images/Profile.png" /></div>
+            </div>
+          </div>
+          <!-- Friends section -->
+          <div class="profile-intro">
+            <!-- Friends title with link -->
+            <div class="title-box">
+              <h3>Friends</h3>
+              <a href="#">All Friends</a>
+            </div>
+            <!-- Mutual friend count -->
+            <p>250k (Mutual)</p>
+            <!-- List of mutual friends with images and names -->
+            <div class="friends-box">
+              <div>
+                <img src="images/member-7.png" />
+                <p>Rahil Bagwan</p>
+              </div>
+              <!-- Repeat for other friends -->
+              <div>
+                <img src="images/member-4.png" />
+                <p>Nilesh Raut</p>
+              </div>
+              <div>
+                <img src="images/member-2.png" />
+                <p>Swapnil Raut</p>
+              </div>
+              <div>
+                <img src="images/member-5.png" />
+                <p>Shankar Madne</p>
+              </div>
+              <div>
+                <img src="images/member-8.png" />
+                <p>Swapnil Sarvale</p>
+              </div>
+              <div>
+                <img src="images/member-6.png" />
+                <p>Beauty Queen</p>
+              </div>
+              <div>
+                <img src="images/member-3.png" />
+                <p>Mac_Lover  </p>
+              </div>
+              <div>
+                <img src="images/photo5.png" />
+                <p>Sumeet Koli</p>
+              </div>
+              <div>
+                <img src="images/member-1.png" />
+                <p>Indrajit Keskar</p>
+              </div>
+            </div>
+          </div> <h3 align="left"></h3>
+          <p><a href="https://www.buymeacoffee.com/vishal_malage"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="vishal_malage" /></a></p><br><br><br>
+             
+        </div>
+        
+        <div class="post-col">
+          <!---------- Write post container ---------->
+          <div class="write-post-container">
+            <!---------- User profile and post input ---------->
+            <div class="user-profile">
+              <img src="images/vishal's img.jpg" />
+              <div class="">
+                <p>Vishal Malage</p>
+                <small>Public <i class="fa-solid fa-caret-down"></i></small>
+              </div>
+            </div>
+            <!---------- Post input and add link options ---------->
+            <div class="post-input-container">
+              <textarea
+                rows="3"
+                placeholder="What's on your mind, Vishal?"
+              ></textarea>
+              <div class="add-link">
+                <a href="#"><img src="images/live-video.png" />Live Video</a>
+                <a href="#"><img src="images/photo.png" />Photo/Video</a>
+                <a href="#"><img src="images/feeling.png" />Feeling/Activity</a>
+              </div>
+            </div>
+          </div>
+          <!---------- Post 1 container ---------->
+          <div class="post-container">
+            <!---------- Post row header ---------->
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/vishal's img.jpg" />
+                <div>
+                  <p>Vishal Malage</p>
+
+                  <span>June 14 2022, 2:37 pm</span>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            <!---------- Post text content ---------->
+            <p class="post-text">
+                My Favourite character in  ONE PIECE.
+                <span>@Monky.D.Luffy</span
+                ><a href="#">#Echiro Oda </a><a href="#">#ONE PIECE</a>
+            </p>
+            <!---------- Post image ---------->
+            <img src="images/smiling luffy.jpg" class="post-img" />
+            <!---------- Activity icons and profile ---------->
+            <div class="post-row">
+              <div class="activity-icon">
+                <div><img src="images/like-blue.png" alt="" />240k</div>
+                <div><img src="images/comments.png" alt="" />150k</div>
+                <div><img src="images/share.png" alt="" />70k</div>
+              </div>
+              <div class="post-profile">
+               <a href="profile.html"> <img src="images/vishal's img.jpg" /></a><i
+                  class="fa-solid fa-caret-down"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <!---------- More post containers... ---------->
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/vishal's img.jpg" />
+                <div>
+                  <p>Vishal Malage</p>
+                  <span>June 18 2023, 12:30 pm</span>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            <p class="post-text">
+                As we know Roronoa Zoro is one of the strongest character And also Loyal to Luffy
+                <span>@Monky D.Luffy ,@Roronoa Zoro</span
+                ><a href="#">#3Sward Style </a><a href="#">#Strongest Swardsman</a>
+            </p>
+            <img src="images/zoro.jpg" class="post-img" />
+            <div class="post-row">
+              <div class="activity-icon">
+                <div><img src="images/like.png" alt="" />240k</div>
+                <div><img src="images/comments.png" alt="" />150k</div>
+                <div><img src="images/share.png" alt="" />70k</div>
+              </div>
+              <div class="post-profile">
+                <img src="images/vishal's img.jpg" /><i
+                  class="fa-solid fa-caret-down"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/vishal's img.jpg" />
+                <div>
+                  <p>Vishal Malage</p>
+                  <span>June 10 2022, 2:30 pm</span>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            <p class="post-text">
+              It's Him Non Other than Obito Uchiha
+              <span> @Swapnil Raut, @Nikhil Salunkhe</span
+              ><a href="#">#Naruto</a><a href="#">#Obito Uchiha</a>
+            </p>
+            <img src="images/obito.jpg" class="post-img" />
+            <div class="post-row">
+              <div class="activity-icon">
+                <div><img src="images/like.png" alt="" />240k</div>
+                <div><img src="images/comments.png" alt="" />150k</div>
+                <div><img src="images/share.png" alt="" />70k</div>
+              </div>
+              <div class="post-profile">
+                <img src="images/vishal's img.jpg" /><i
+                  class="fa-solid fa-caret-down"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/vishal's img.jpg" />
+                <div>
+                  <p>Vishal Malage</p>
+                  <span>June 10 2022, 1:30 pm</span>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            <p class="post-text">
+              It's All About the time when i Just Started my own Compony "VIP Publisher" With My Partner 
+              <span>@Rahil Bagwan</span
+              ><a href="#">#VIP Publisher</a><a href="#">#First Startup</a>
+            </p>
+            <img src="images/vip publisher.png" class="post-img" />
+            <div class="post-row">
+              <div class="activity-icon">
+                <div><img src="images/like.png" alt="" />500k</div>
+                <div><img src="images/comments.png" alt="" />350k</div>
+                <div><img src="images/share.png" alt="" />270k</div>
+              </div>
+              <div class="post-profile">
+                <img src="images/vishal's img.jpg" /><i
+                  class="fa-solid fa-caret-down"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/vishal's img.jpg" />
+                <div>
+                  <p>Vishal Malage</p>
+                  <span>May 01 2019, 8:20 am</span>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            <p class="post-text">
+              The Creator  of Jarvis is Iron Man Beacause of the Iron Man i just want to Create Assistant Like jarvis Thats Why I  take the Admission   in Computer Science Engineering For The Knowledge of Computer & its Software Fundamentals its my Dream to Create Assistant like Jarvis
+              <span>@Tony Stark</span
+              ><a href="#"># IRON MAN</a><a href="#">#Jarvis</a><a href="#"># Marvel Studios</a>
+            </p>
+            <img src="images/jarvis.jpg" class="post-img" />
+            <div class="post-row">
+              <div class="activity-icon">
+                <div><img src="images/like.png" alt="" />340k</div>
+                <div><img src="images/comments.png" alt="" />250k</div>
+                <div><img src="images/share.png" alt="" />170k</div>
+              </div>
+              <div class="post-profile">
+                <img src="images/vishal's img.jpg" /><i
+                  class="fa-solid fa-caret-down"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------- Footer ---------->
+    <div class="footer"> <footer id="footer-copyright" class="footer-copyright">
+      <div class="container">
+          <div class="hm-footer-copyright text-center">
+              <p>
+                <h4>  &copy; copyright Vishal Malage. design and developed by <a href="https://github.com/vishalmalage07">Vishal Malage</a></h4>
+              </p> 
+             
+             
+    </div>
+    <!---------- JavaScript file ---------->
+    <script src="script.js"></script>
+  </body>
+</html>
