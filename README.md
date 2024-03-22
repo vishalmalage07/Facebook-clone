@@ -1,26 +1,29 @@
 <h1 align="center">Hi 👋, I'm Vishal Malage</h1>
 <h3 align="center">A passionate Web Developer from India</h3>
 
-- 👨‍💻 All of my projects are available at [https://github.com/vishalmalage07](https://github.com/vishalmalage07)
 
-- 📫 How to reach me **vishalmalage07@gmail.com**
+- 📫 How to reach me  [vishalmalage07@gmail.com](mailto:vishalmalage07@gmail.com)
 
-- ⚡ Fun fact **I am Also Learning new things About Web3 Technology**
+- ⚡ Fun fact **I am Also Learning New things About Web3 Technology**
 
 # Facebook-clone
-
 
 Welcome to the **Facebook Clone** repository! In this open-source project, I bring you meticulously crafted front-end clone of some of the world's most iconic websites Facebook. My goal is to help developers learn and practice front-end development by dissecting and recreating these well-known platforms.
 
 
 
-<h3 align="left">Languages and Tools Are used :</h3>
-<p align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/><br>
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a><br>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <br>
-<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a><br>
+<h2>Just Try To Logout  in Page there is Special surprise Just Try😜</h2>
+- Go to Profile And try to Logout You will Experience Unique Something <br>
+- Just Let me Know you liked And do not Forgot to share the experience <br><br>
 
 
+
+
+
+<h1 align="left">Languages and Tools Are used :</h1>
+<p align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
 
 
 
@@ -35,7 +38,7 @@ Welcome to the **Facebook Clone** repository! In this open-source project, I bri
 
 ###  Facebook Clone<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="#" height="20" width="30" />
 - **Description:** A clone of the Facebook news feed, showcasing user posts, comments, and likes and lots More.
-- **Technologies:** HTML5, CSS3 & JavaScript,Bootstrap.
+- **Technologies:** HTML5, CSS3 & JavaScript.
 
 
 
